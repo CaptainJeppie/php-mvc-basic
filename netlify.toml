@@ -77,14 +77,14 @@
 # which are PER-DEPLOY.
 
 # A basic redirect rule
-[[redirects]]
-  from = "/*"
-  to = "/blog/:splat"
+#[[redirects]]
+#  from = "/*"
+#  to = "/blog/:splat"
 
 # A redirect rule with many of the supported properties
-[[redirects]]
-  from = "/old-path"
-  to = "/new-path"
+#[[redirects]]
+ # from = "/old-path"
+#  to = "/new-path"
 
   # The default HTTP status code is 301, but you can
   # define a different one.
@@ -115,11 +115,10 @@
     X-Api-Key = "some-api-key-string"
 
 # Redirects for role-based access control don’t use the 'to' property.
-[[redirects]]
-  from = "/gated-path"
-  status = 200
-  conditions = {Role = ["admin"]}
-  force = true
+#[[redirects]]
+# status = 200
+#  conditions = {Role = ["admin"]}
+ # force = true
 
 # The following redirect is intended for use with most SPAs
 # that handle routing internally.
