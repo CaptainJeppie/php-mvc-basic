@@ -18,4 +18,19 @@ class CatalogueController
 
         require __DIR__ . '/../views/catalogue/index.php';
     }
+
+    public function detail()
+    {
+        require __DIR__ . '/../views/catalogue/detail.php';
+    }
+
+    public function rent()
+    {
+        require __DIR__ . '/../views/catalogue/rent.php';
+    }
+
+    public function thankyou()
+    {
+        require __DIR__ . '/../views/catalogue/thankyou.php';
+    }
 }

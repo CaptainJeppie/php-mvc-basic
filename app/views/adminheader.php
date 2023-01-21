@@ -17,6 +17,7 @@
             color: rgba(255, 255, 255, 0.55);
         }
     </style>
+
 </head>
 <body class="d-flex flex-column h-100">
 
@@ -39,9 +40,17 @@
                     <a class="nav-link" href="/home/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/login">Login</a>
+                    <a class="nav-link" href="/admin/users">Users</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/bicycles">Bicycles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/rentals">Rentals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/logout">Logout</a>
+                </li>
             </ul>
         </div>
     </div>

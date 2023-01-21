@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c586947e-5966-4026-ba43-04a2ae1b26b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/admincontroller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repositories/RentalRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repositories/UserRepositroy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/LoginService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/RentalService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/Bicycles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/Rentals.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/Users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/addRental.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/addUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/editBicycle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/editRental.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/editUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/adminheader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/catalogue/rent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/catalogue/thankyou.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Porject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Porject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-docker-settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/dbconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/dbconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CatalogueController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CatalogueController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/articlecontroller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/testcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/addBicycle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repositories/CatalogueRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/repositories/CatalogueRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repositories/articlerepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/CreateCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/OpenDetailPageScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/CatalogueService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/CatalogueService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/articleservice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/article/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/catalogue/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/catalogue/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/catalogue/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/catalogue/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/login/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="9688e515-1e55-4733-b106-abf9039421c8" value="Blue" />
+    </colors>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KB9BN64uzN2hkPNN6nEvUwtUoX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Jesper/Onedrive/!School/Periode 6/Webdevelopment/Porject/Porject&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Jesper\Onedrive\!School\Periode 6\Webdevelopment\Porject\Porject\app\views\admin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c586947e-5966-4026-ba43-04a2ae1b26b7" name="Changes" comment="" />
+      <created>1673436977507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673436977507</updated>
+      <workItem from="1673436979474" duration="3511000" />
+      <workItem from="1673523328039" duration="1723000" />
+      <workItem from="1673808816450" duration="3896000" />
+      <workItem from="1673959213845" duration="2121000" />
+      <workItem from="1674041725700" duration="16330000" />
+      <workItem from="1674129331686" duration="7472000" />
+      <workItem from="1674207085290" duration="17977000" />
+      <workItem from="1674227625534" duration="258000" />
+      <workItem from="1674294120970" duration="1066000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
