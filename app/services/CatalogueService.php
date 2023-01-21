@@ -36,4 +36,10 @@ class catalogueService
         $repository = new cataloguerepository();
         $repository->deleteBicycle($id);
     }
+
+    public function insert(Bicycle $bike) : void
+    {
+        $repository = new cataloguerepository();
+        $repository->addBicycle($bike->name, $bike->category, $bike->description, $bike->picture, $bike->deposit, $bike->priceperday);
+    }
 }

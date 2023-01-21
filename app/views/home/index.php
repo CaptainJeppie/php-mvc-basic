@@ -15,6 +15,8 @@ else{
         <li>Electric bikes</li>
     </ul>
 
+    <a href="/catalogue">View the catalogue page</a><br>
+    <a href="/api/catalogue">View the catalogue API endpoint</a>
 
 <?php
 include __DIR__ . '/../footer.php';

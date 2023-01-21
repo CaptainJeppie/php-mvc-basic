@@ -6,18 +6,17 @@ class Bicycle
     public $name;
     public $category;
     public $description;
-    public $image;
+    public $picture;
     public $priceperday;
     public $deposit;
     public $isAvailable;
 
-    public function __construct($id, $name, $category, $description, $image, $priceperday, $deposit, $isAvailable)
+    public function __construct($name, $category, $description, $picture, $priceperday, $deposit, $isAvailable)
     {
-        $this->id = $id;
         $this->name = $name;
         $this->category = $category;
         $this->description = $description;
-        $this->image = $image;
+        $this->picture = $picture;
         $this->priceperday = $priceperday;
         $this->deposit = $deposit;
         $this->isAvailable = $isAvailable;

@@ -13,6 +13,13 @@ class PatternRouter
     public function route($uri)
     {
 
+        // check if we are requesting an api route
+        $api = false;
+        if (str_starts_with($uri, "api/")) {
+            $uri = substr($uri, 4);
+            $api = true;
+        }
+
         $uri = $this->stripParameters($uri);
 
         $explodedUri = explode('/', $uri);
@@ -28,6 +35,9 @@ class PatternRouter
         $methodName = $explodedUri[1];
 
         $filename = __DIR__ . '/../controllers/' . $controllerName . '.php';
+        if ($api) {
+            $filename = __DIR__ . '/../api/controllers/' . $controllerName . '.php';
+        }
 
         if (file_exists($filename)) {
             require($filename);
