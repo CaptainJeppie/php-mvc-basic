@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c586947e-5966-4026-ba43-04a2ae1b26b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/admincontroller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/RentalRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/UserRepositroy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/LoginService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/RentalService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/Bicycles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/Rentals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/Users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/addRental.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/addUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/editBicycle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/editRental.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/editUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/adminheader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/catalogue/rent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/catalogue/thankyou.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Porject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Porject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-docker-settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/dbconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/dbconfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/CatalogueController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CatalogueController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/articlecontroller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/testcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/addBicycle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/article.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/CatalogueRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/repositories/CatalogueRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/articlerepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/CreateCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/OpenDetailPageScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/CatalogueService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/CatalogueService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/articleservice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/article/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/catalogue/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/catalogue/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/catalogue/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/catalogue/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/login/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="c586947e-5966-4026-ba43-04a2ae1b26b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
