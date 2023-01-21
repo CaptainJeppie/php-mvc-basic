@@ -1,12 +1,4 @@
 <?php
-if ($_POST) {
-    if (isset($_POST['delete'])) {
-        $id = $_POST['delete'];
-        $this->rentalService->deleteRental($id);
-        header('Location: /admin/Rentals');
-    }
-}
-
 include __DIR__ . '/../adminheader.php';
 ?>
 
@@ -38,15 +30,15 @@ include __DIR__ . '/../adminheader.php';
                             <th>Start Date</th>
                             <th>End Date</th>
                             <th>Price</th>
-                            <th>Edit</th>
-                            <th>Delete</th>
+                            <th>Action</th>
                         </tr>
                         </thead>
                         <tbody>
                         <?php
+                        /** @var array $model */
                         foreach ($model as $row) {
                             ?>
-                            <tr>
+                            <tr id="<?php echo $row['orderId']; ?>">
                                 <td><?php echo $row['orderId']; ?></td>
                                 <td><?php echo $row['bicycleId']; ?></td>
                                 <td><?php echo $row['email']; ?></td>
@@ -56,16 +48,12 @@ include __DIR__ . '/../adminheader.php';
                                 <td>
                                     <form method="post" action="editRental">
                                         <input type="submit" name="edit" class="btn btn-warning btn-sm edit"
-                                               value=" X " id="edit">
+                                               value="Edit" id="edit">
                                         <input type="hidden" id="id" name="edit" value="<?php echo $row['orderId']; ?>">
-                                    </form>
-                                </td>
-                                <td>
-                                    <form method="post">
-                                        <input type="submit" name="delete" class="btn btn-danger btn-sm delete"
-                                               value=" X " id="delete">
-                                        <input type="hidden" id="id" name="delete" value="<?php echo $row['orderId']; ?>">
-
+                                        <button type="button" name="delete" class="btn btn-danger btn-sm delete"
+                                                value="<?php echo $row['orderId']; ?>" id="delete"
+                                                onclick="deleteRental(<?php echo $row['orderId']; ?>)"> Delete
+                                        </button>
                                     </form>
                                 </td>
                             </tr>
@@ -80,6 +68,33 @@ include __DIR__ . '/../adminheader.php';
         </div>
     </div>
     <script>
+        let rentals = [];
+
+        // Fetch the initial list of users from the server
+        fetch("/rentals.json")
+            .then(response => response.json())
+            .then(data => {
+                rentals = data;
+            });
+
+        function deleteRental(orderId) {
+            // Send a DELETE request to the server with the rentals ID
+            fetch("/api/rental?id=" + orderId, {
+                method: "DELETE"
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === "success") {
+                        // If the server returns a success message, update the table
+                        rentals = rentals.filter(rental => rental.id !== orderId);
+                        document.getElementById(orderId).remove();
+                    } else {
+                        // If the server returns an error, display it
+                        alert(data.message);
+                    }
+                });
+        }
+
         function toAddPage() {
             window.location.href = "<?= '/admin/addRental'?>";
         }

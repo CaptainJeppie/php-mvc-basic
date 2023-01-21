@@ -46,4 +46,10 @@ class LoginService
         $repository->deleteUser($id);
     }
 
+    public function insert(User $user)
+    {
+        $repository = new UserRepositroy();
+        $repository->addUser($user->getName(), $user->getEmail(), $user->getPhoneNumber(), $user->getPassword());
+    }
+
 }

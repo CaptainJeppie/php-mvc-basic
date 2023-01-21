@@ -1,12 +1,4 @@
 <?php
-if ($_POST) {
-    if (isset($_POST['delete'])) {
-        $id = $_POST['delete'];
-        $this->loginService->deleteUser($id);
-        header('Location: /admin/Users');
-    }
-}
-
 include __DIR__ . '/../adminheader.php';
 ?>
 
@@ -21,8 +13,7 @@ include __DIR__ . '/../adminheader.php';
                     </div>
                     <div class="col text-right">
                         <button type="button" name="add_user" id="add_user" class="btn btn-success btn-sm"
-                                onclick="toAddPage()">
-                            +   Add User
+                                onclick="toAddUserPage()"> + Add User
                         </button>
                     </div>
                 </div>
@@ -36,15 +27,15 @@ include __DIR__ . '/../adminheader.php';
                             <th>User Name</th>
                             <th>User Email</th>
                             <th>Phone Number</th>
-                            <th>Edit</th>
-                            <th>Delete</th>
+                            <th>Action</th>
                         </tr>
                         </thead>
                         <tbody>
                         <?php
+                        /** @var array $model */
                         foreach ($model as $row) {
                             ?>
-                            <tr>
+                            <tr id="<?php echo $row['id']; ?>">
                                 <td><?php echo $row['id']; ?></td>
                                 <td><?php echo $row['name']; ?></td>
                                 <td><?php echo $row['email']; ?></td>
@@ -52,16 +43,13 @@ include __DIR__ . '/../adminheader.php';
                                 <td>
                                     <form method="post" action="editUser">
                                         <input type="submit" name="edit" class="btn btn-warning btn-sm edit"
-                                               value=" X " id="edit">
+                                               value="Edit" id="edit">
                                         <input type="hidden" id="id" name="edit" value="<?php echo $row['id']; ?>">
-                                    </form>
-                                </td>
-                                <td>
-                                    <form method="post">
-                                        <input type="submit" name="delete" class="btn btn-danger btn-sm delete"
-                                               value=" X " id="delete">
-                                        <input type="hidden" id="id" name="delete" value="<?php echo $row['id']; ?>">
 
+                                        <button type="button" name="delete" class="btn btn-danger btn-sm delete"
+                                                value="<?php echo $row['id']; ?>" id="delete"
+                                                onclick="deleteUser(<?php echo $row['id']; ?>)"> Delete
+                                        </button>
                                     </form>
                                 </td>
                             </tr>
@@ -70,14 +58,41 @@ include __DIR__ . '/../adminheader.php';
                         ?>
                         </tbody>
                     </table>
-
                 </div>
             </div>
         </div>
     </div>
+
     <script>
-        function toAddPage() {
-            window.location.href = "<?= '/admin/addUser'?>";
+        let users = [];
+
+        // Fetch the initial list of users from the server
+        fetch("/users.json")
+            .then(response => response.json())
+            .then(data => {
+                users = data;
+            });
+
+        function deleteUser(userId) {
+            // Send a DELETE request to the server with the user's ID
+            fetch("/api/user?id=" + userId, {
+                method: "DELETE"
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === "success") {
+                        // If the server returns a success message, update the table
+                        users = users.filter(user => user.id !== userId);
+                        document.getElementById(userId).remove();
+                    } else {
+                        // If the server returns an error, display it
+                        alert(data.message);
+                    }
+                });
+        }
+
+        function toAddUserPage() {
+            window.location.href = "/admin/addUser";
         }
     </script>
 

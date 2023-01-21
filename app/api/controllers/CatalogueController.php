@@ -11,11 +11,11 @@ class CatalogueController
         $this->catalogueService = new catalogueService();
     }
 
-    // router maps this to /api/article automatically
+    // router maps this to /api/catalogue automatically
     public function index()
     {
 
-        // Respond to a GET request to /api/article
+        // Respond to a GET request to /api/catalogue
         if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
             // your code here
@@ -27,7 +27,7 @@ class CatalogueController
             echo json_encode($result);
         }
 
-        // Respond to a POST request to /api/article
+        // Respond to a POST request to /api/catalogue
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // your code here
@@ -48,6 +48,24 @@ class CatalogueController
 
             // Return a success message
             echo json_encode(["message" => "Bike added successfully!"]);
+
+        }
+
+        //respond to a DELETE request to /api/catalogue
+        if ($_SERVER["REQUEST_METHOD"] == "DELETE") {
+
+            // your code here
+            // read JSON from the request, convert it to a bike object
+            // and have the service delete the bike from the database
+
+            // Get the bikes ID from the query parameter
+            $bikeId = $_GET["id"];
+
+            // Delete the bike from the database
+            $this->catalogueService->deleteBicycle($bikeId);
+
+            // Return a success message
+            echo json_encode(["status" => "success", "message" => "Bike deleted successfully!"]);
 
         }
     }

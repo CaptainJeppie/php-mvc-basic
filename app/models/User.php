@@ -6,13 +6,14 @@ class User
     public $name;
     public $phoneNumber;
     public $email;
+    public $password;
 
-    public function __construct($id, $name, $email, $phoneNumber)
+    public function __construct($name, $email, $phoneNumber, $password)
     {
-        $this->id = $id;
         $this->name = $name;
-        $this->phoneNumber = $phoneNumber;
         $this->email = $email;
+        $this->phoneNumber = $phoneNumber;
+        $this->password = $password->hash();
     }
 
     public function getId()
@@ -33,6 +34,11 @@ class User
     public function getEmail()
     {
         return $this->email;
+    }
+
+    public function getPassword()
+    {
+        return $this->password;
     }
 
 }

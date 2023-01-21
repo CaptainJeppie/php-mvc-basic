@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c586947e-5966-4026-ba43-04a2ae1b26b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/api/controllers/CatalogueController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/controllers/RentalController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Rental.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Bicycle.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Bicycle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/patternrouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/patternrouter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/switchrouter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/CatalogueService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/CatalogueService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/controllers/CatalogueController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/controllers/CatalogueController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/LoginService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/LoginService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/RentalService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/RentalService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/Bicycles.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/Bicycles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/Rentals.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/Rentals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/Users.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Jesper\Onedrive\!School\Periode 6\Webdevelopment\Porject\Porject\app\public\scripts" />
       <recent name="C:\Jesper\Onedrive\!School\Periode 6\Webdevelopment\Porject\Porject\app\views\admin" />
     </key>
   </component>

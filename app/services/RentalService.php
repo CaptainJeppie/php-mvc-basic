@@ -30,4 +30,10 @@ class RentalService
         $repository = new RentalRepository();
         $repository->deleteRental($id);
     }
+
+    public function insert(Rental $id)
+    {
+        $repository = new RentalRepository();
+        $repository->addRental($id->getBikeId(), $id->getUserEmail(), $id->getStartDate(), $id->getEndDate(), $id->getPrice());
+    }
 }
