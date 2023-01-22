@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="BicycleRentalSystem@localhost">
-  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.40">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.45">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1149,41 +1149,41 @@ developmentdb|schema||developer||UPDATE|G</Grants>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="337" parent="334" name="id">
-      <DataType>int(11)|0s</DataType>
+      <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="338" parent="334" name="name">
-      <DataType>varchar(250)|0s</DataType>
+      <DasType>varchar(250)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
     <column id="339" parent="334" name="isAvailable">
-      <DataType>tinyint(1)|0s</DataType>
+      <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
     <column id="340" parent="334" name="category">
-      <DataType>varchar(250)|0s</DataType>
+      <DasType>varchar(250)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <column id="341" parent="334" name="description">
-      <DataType>varchar(2000)|0s</DataType>
+      <DasType>varchar(2000)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
     <column id="342" parent="334" name="picture">
-      <DataType>varchar(300)|0s</DataType>
+      <DasType>varchar(300)|0s</DasType>
       <Position>6</Position>
     </column>
     <column id="343" parent="334" name="borg">
-      <DataType>double|0s</DataType>
+      <DasType>double|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
     <column id="344" parent="334" name="priceperday">
-      <DataType>double|0s</DataType>
+      <DasType>double|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
@@ -1198,32 +1198,32 @@ developmentdb|schema||developer||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="347" parent="335" name="orderId">
-      <DataType>int(11)|0s</DataType>
+      <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="348" parent="335" name="bicycleId">
-      <DataType>int(11)|0s</DataType>
+      <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
     <column id="349" parent="335" name="email">
-      <DataType>varchar(100)|0s</DataType>
+      <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
     <column id="350" parent="335" name="startDate">
-      <DataType>date|0s</DataType>
+      <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <column id="351" parent="335" name="endDate">
-      <DataType>date|0s</DataType>
+      <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
     <column id="352" parent="335" name="price">
-      <DataType>double|0s</DataType>
+      <DasType>double|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
@@ -1238,27 +1238,27 @@ developmentdb|schema||developer||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="355" parent="336" name="id">
-      <DataType>int(11)|0s</DataType>
+      <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="356" parent="336" name="name">
-      <DataType>varchar(250)|0s</DataType>
+      <DasType>varchar(250)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
     <column id="357" parent="336" name="email">
-      <DataType>varchar(250)|0s</DataType>
+      <DasType>varchar(250)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
     <column id="358" parent="336" name="phoneNumber">
-      <DataType>varchar(20)|0s</DataType>
+      <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <column id="359" parent="336" name="password">
-      <DataType>varchar(50)|0s</DataType>
+      <DasType>varchar(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>

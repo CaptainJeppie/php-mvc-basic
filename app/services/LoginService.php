@@ -21,9 +21,6 @@ class LoginService
             if ($user['email'] == $email && password_verify($password, $user['password'])) {
                 return true;
             }
-            if ($user['email'] == $email && $user['password'] == $password) {
-                return true;
-            }
         }
         return false;
     }

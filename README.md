@@ -1,29 +1,23 @@
-# Basic PHP MVC demo
-This repository demonstrates how the MVC design pattern can be implemented using PHP.
+# Venj Bike Rentals - README
+This project is about a bike rental website.
 
-It contains a docker configuration with:
-* NGINX webserver
-* PHP FastCGI Process Manager with PDO MySQL support
-* MariaDB (GPL MySQL fork)
-* PHPMyAdmin
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Users Information](#users-information)
+- [sources](#sources)
 
-## Installation
+## About the Project
+The rubrics have been completed and the project is ready to be reviewed.
 
-1. Install Docker Desktop on Windows or Mac, or Docker Engine on Linux.
-1. Clone the project
+## Users Information
+| User                        | Password |
+|-----------------------------|----------|
+| ospieter@gmail.com          | 123      |
+| 679691@student.inholland.nl | 123      |
 
-## Usage
-
-In a terminal, run:
-```bash
-docker-compose up
-```
-
-NGINX will now serve files in the app/public folder. Visit localhost in your browser to check.
-PHPMyAdmin is accessible on localhost:8080
-
-If you want to stop the containers, press Ctrl+C. 
-Or run:
-```bash
-docker-compose down
-```
+## Sources
+- [Bootstrap](https://getbootstrap.com/)
+- [Php-mvc-basic](https://github.com/ahrnuld/php-mvc-basic/)
+- [Php-restapi-starter](https://github.com/ahrnuld/php-restapi-starter/)
+- [W3Schools](https://www.w3schools.com/)
+- [Stackoverflow](https://stackoverflow.com/)
