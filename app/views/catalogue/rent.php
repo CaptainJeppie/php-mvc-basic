@@ -15,7 +15,6 @@ if ($_POST){
         header('Location: /catalogue/thankyou');
     }
 }
-session_start();
 if (isset($_SESSION['status']) && $_SESSION['status'] == 'loggedin') {
     include __DIR__ . '/../adminheader.php';
 }

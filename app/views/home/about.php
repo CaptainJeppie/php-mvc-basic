@@ -9,7 +9,7 @@ else{
 echo "<h1>About page!</h1>";
 ?> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxrUQCARt8iH_GXSDifs57uG-nw14oIk-WYg&usqp=CAU" alt="fietswinkel">
 
-    <p>Welcome to Venj-Bike Rentals, your premier destination for all of your biking needs! We are a locally owned and
+    <p>Welcome to VenJ-Bike Rentals, your premier destination for all of your biking needs! We are a locally owned and
         operated business that is dedicated to providing our customers with the best possible experience when it comes
         to renting bicycles.</p>
     <p>
@@ -21,7 +21,7 @@ echo "<h1>About page!</h1>";
         Our knowledgeable staff is always on hand to help you choose the right bike for your needs and to answer any
         questions you may have. We're passionate about cycling and we want to share that passion with you.</p>
     <p>
-        So come and visit us today at Venj-Bike Rentals and experience the joy of cycling with one of our quality
+        So come and visit us today at VenJ-Bike Rentals and experience the joy of cycling with one of our quality
         bicycles!</p>
 
 

@@ -101,8 +101,7 @@ CREATE TABLE `Users` (
 
 INSERT INTO `Users` (`id`, `name`, `email`, `phoneNumber`, `password`) VALUES
 (1, 'Piet van Os', 'ospieter@gmail.com', '0626698188', '$2y$10$/rr2AIzqCkPkt8ysw2Mmx.MrUNjW4FWvwn4dOYbbo1bTTXa20w7PK'),
-(5, 'jesper van der ven', 'jespervdven5@gmail.com', '0646671166', '$2y$10$ry.6VvXatVyiU8mUUoQfCe40c6CqKVT7yroSI54LXrBJQcDZow07m'),
-(7, 'jesper van der ven', 'jesperwerkt@outlook.com', '0646671166', '$2y$10$ry5tRr5q5RrUKL9Die7WoOvCwWDVZPS/pYUbLARIHh54NY/Zpf/VC');
+(5, 'jesper van der ven', '679691@student.inholland.nl', '0646671166', '$2y$10$ry.6VvXatVyiU8mUUoQfCe40c6CqKVT7yroSI54LXrBJQcDZow07m');
 
 --
 -- Indexen voor geëxporteerde tabellen

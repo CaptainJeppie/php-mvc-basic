@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c586947e-5966-4026-ba43-04a2ae1b26b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9688e515-1e55-4733-b106-abf9039421c8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9688e515-1e55-4733-b106-abf9039421c8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/LoginService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/LoginService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/developmentdb.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/catalogue/rent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/catalogue/rent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/BicycleRentalSystem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/BicycleRentalSystem.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +51,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Jesper/Onedrive/!School/Periode 6/Webdevelopment/php-restapi-starter&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -81,6 +89,11 @@
       <workItem from="1674294120970" duration="1066000" />
       <workItem from="1674413004580" duration="973000" />
       <workItem from="1674414081992" duration="3000" />
+      <workItem from="1674415277924" duration="26000" />
+      <workItem from="1674416353385" duration="13000" />
+      <workItem from="1674418666890" duration="660000" />
+      <workItem from="1674420146347" duration="71000" />
+      <workItem from="1674423527661" duration="179000" />
     </task>
     <servers />
   </component>
