@@ -2,7 +2,7 @@
 
 include __DIR__ . '/../../services/RentalService.php';
 
-class RentalController
+class rentalcontroller
 {
     private $rentalService;
 

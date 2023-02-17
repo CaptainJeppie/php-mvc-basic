@@ -12,9 +12,7 @@ include __DIR__ . '/../adminheader.php';
                         <h2>User Management</h2>
                     </div>
                     <div class="col text-right">
-                        <button type="button" name="add_user" id="add_user" class="btn btn-success btn-sm"
-                                onclick="toAddUserPage()"> + Add User
-                        </button>
+                        <a href="addUser" class="btn btn-success btn-sm"> + Add User</a>
                     </div>
                 </div>
             </div>
@@ -89,10 +87,6 @@ include __DIR__ . '/../adminheader.php';
                         alert(data.message);
                     }
                 });
-        }
-
-        function toAddUserPage() {
-            window.location.href = "/admin/addUser";
         }
     </script>
 

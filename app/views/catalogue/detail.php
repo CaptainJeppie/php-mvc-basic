@@ -1,16 +1,3 @@
-<?php
-if (isset($_SESSION['status']) && $_SESSION['status'] == 'loggedin') {
-    include __DIR__ . '/../adminheader.php';
-}
-else{
-    include __DIR__ . '/../header.php';
-}?>
-
-
-<?php
-$id = $_POST['act'];
-$model = $this->catalogueService->getById($id);
-?>
     <h1>Detail page!</h1>
     <section>
         <div class="container">

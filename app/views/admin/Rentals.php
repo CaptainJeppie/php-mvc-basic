@@ -12,10 +12,9 @@ include __DIR__ . '/../adminheader.php';
                         <h2>Rental Management</h2>
                     </div>
                     <div class="col text-right">
-                        <button type="button" name="add_rental" id="add_rental" class="btn btn-success btn-sm"
-                                onclick="toAddPage()">
-                            +   Add Rental
-                        </button>
+                        <div class="col text-right">
+                            <a href="addRental" class="btn btn-success btn-sm"> + Add Rental</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,10 +92,6 @@ include __DIR__ . '/../adminheader.php';
                         alert(data.message);
                     }
                 });
-        }
-
-        function toAddPage() {
-            window.location.href = "<?= '/admin/addRental'?>";
         }
     </script>
 

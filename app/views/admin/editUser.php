@@ -1,21 +1,4 @@
 <?php
-if ($_POST){
-    if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phoneNumber']) && isset($_POST['password']) && isset($_POST['edit'])) {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $phoneNumber = $_POST['phoneNumber'];
-        $password = $_POST['password'];
-        $userId = $_POST['edit'];
-
-        $hashedpassword = password_hash($password, PASSWORD_DEFAULT);
-
-        $this->loginService->editUser($userId ,$name, $email, $phoneNumber, $hashedpassword);
-        header('Location: /admin/Users');
-    }
-}
-$id = $_POST['edit'];
-$model = $this->loginService->getById($id);
-
 include __DIR__ . '/../adminheader.php';
 ?>
 

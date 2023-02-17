@@ -1,18 +1,4 @@
 <?php
-if ($_POST){
-    if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phoneNumber']) && isset($_POST['password'])) {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $phoneNumber = $_POST['phoneNumber'];
-        $password = $_POST['password'];
-
-        $hashedpassword = password_hash($password, PASSWORD_DEFAULT);
-
-        $this->loginService->addUser($name, $email, $phoneNumber, $hashedpassword);
-        header('Location: /admin/Users');
-    }
-}
-
 include __DIR__ . '/../adminheader.php';
 ?>
 

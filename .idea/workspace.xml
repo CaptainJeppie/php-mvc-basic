@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c586947e-5966-4026-ba43-04a2ae1b26b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/catalogue/rent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/catalogue/rent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/BicycleRentalSystem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/BicycleRentalSystem.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Jesper/Onedrive/!School/Periode 6/Webdevelopment/php-restapi-starter&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Jesper/Onedrive/!School/Webdevelopment project periode 3/Project-2.3-The-Festival",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Jesper\Onedrive\!School\Periode 6\Webdevelopment\Porject\Porject\app\public\scripts" />
@@ -94,6 +88,8 @@
       <workItem from="1674418666890" duration="660000" />
       <workItem from="1674420146347" duration="71000" />
       <workItem from="1674423527661" duration="179000" />
+      <workItem from="1676365075509" duration="1215000" />
+      <workItem from="1676366302677" duration="14000" />
     </task>
     <servers />
   </component>

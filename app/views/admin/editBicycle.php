@@ -1,22 +1,4 @@
 <?php
-if ($_POST) {
-    if (isset($_POST['edit']) && isset($_POST['availability']) && isset($_POST['name']) && isset($_POST['category']) && isset($_POST['description']) && isset($_POST['picture']) && isset($_POST['borg']) && isset($_POST['priceperday'])) {
-        $name = $_POST['name'];
-        $availability = $_POST['availability'];
-        $category = $_POST['category'];
-        $description = $_POST['description'];
-        $picture = $_POST['picture'];
-        $borg = $_POST['borg'];
-        $priceperday = $_POST['priceperday'];
-        $bikeId = $_POST['edit'];
-
-        $this->catalogueService->editBicycle($bikeId, $name, $availability, $category, $description, $picture, $borg, $priceperday);
-        header('Location: /admin/Bicycles');
-    }
-}
-$bikeId = $_POST['edit'];
-$model = $this->catalogueService->getById($bikeId);
-
 include __DIR__ . '/../adminheader.php';
 ?>
 

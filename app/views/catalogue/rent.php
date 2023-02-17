@@ -1,30 +1,3 @@
-<?php
-if ($_POST){
-    if (isset($_POST['email']) && isset($_POST['startDate']) && isset($_POST['endDate']) && isset($_POST['bikeID'])) {
-        $email = $_POST['email'];
-        $startDate = $_POST['startDate'];
-        $endDate = $_POST['endDate'];
-        $bikeID = $_POST['bikeID'];
-
-        $bike = $this->catalogueService->getById($bikeID);
-
-        $price = $bike['priceperday'] * (strtotime($endDate) - strtotime($startDate)) / (60 * 60 * 24);
-        $price = $price + $bike['borg'];
-
-        $this->catalogueService->rent($bike['id'], $email, $startDate, $endDate, $price);
-        header('Location: /catalogue/thankyou');
-    }
-}
-if (isset($_SESSION['status']) && $_SESSION['status'] == 'loggedin') {
-    include __DIR__ . '/../adminheader.php';
-}
-else{
-    include __DIR__ . '/../header.php';
-}
-$id = $_POST['act'];
-$bike = $this->catalogueService->getById($id);
-?>
-
 <h1>Renting page!</h1>
 
 <form method="post">

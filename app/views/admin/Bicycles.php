@@ -12,10 +12,9 @@ include __DIR__ . '/../adminheader.php';
                         <h2>Bicycle Management</h2>
                     </div>
                     <div class="col text-right">
-                        <button type="button" name="add_bike" id="add_bike" class="btn btn-success btn-sm"
-                                onclick="toAddPage()">
-                            +   Add Bicycle
-                        </button>
+                        <div class="col text-right">
+                            <a href="addBicycle" class="btn btn-success btn-sm"> + Add Bicycle</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,10 +91,6 @@ include __DIR__ . '/../adminheader.php';
                         alert(data.message);
                     }
                 });
-        }
-
-        function toAddPage() {
-            window.location.href = "/admin/addBicycle";
         }
     </script>
 

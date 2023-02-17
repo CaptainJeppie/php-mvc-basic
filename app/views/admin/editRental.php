@@ -1,20 +1,4 @@
 <?php
-if ($_POST) {
-    if (isset($_POST['edit']) && isset($_POST['bikeId']) && isset($_POST['email']) && isset($_POST['startDate']) && isset($_POST['endDate']) && isset($_POST['price'])) {
-        $bikeId = $_POST['bikeId'];
-        $email = $_POST['email'];
-        $startDate = $_POST['startDate'];
-        $endDate = $_POST['endDate'];
-        $price = $_POST['price'];
-        $orderId = $_POST['edit'];
-
-        $this->rentalService->editRental($orderId, $bikeId, $email, $startDate, $endDate, $price);
-        header('Location: /admin/Rentals');
-    }
-}
-$id = $_POST['edit'];
-$model = $this->rentalService->getById($id);
-
 include __DIR__ . '/../adminheader.php';
 ?>
 

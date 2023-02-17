@@ -2,7 +2,7 @@
 
 include __DIR__ . '/../../services/LoginService.php';
 
-class UserController
+class usercontroller
 {
     private $loginService;
 

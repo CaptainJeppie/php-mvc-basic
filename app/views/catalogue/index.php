@@ -1,13 +1,3 @@
-<?php
-if (isset($_SESSION['status']) && $_SESSION['status'] == 'loggedin') {
-    include __DIR__ . '/../adminheader.php';
-}
-else{
-    include __DIR__ . '/../header.php';
-}
-?>
-
-
 <section>
     <div class="container">
         <h2>Catalogue</h2>

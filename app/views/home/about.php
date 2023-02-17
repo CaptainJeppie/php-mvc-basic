@@ -1,13 +1,7 @@
-<?php
-if (isset($_SESSION['status']) && $_SESSION['status'] == 'loggedin') {
-    include __DIR__ . '/../adminheader.php';
-}
-else{
-    include __DIR__ . '/../header.php';
-}
 
-echo "<h1>About page!</h1>";
-?> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxrUQCARt8iH_GXSDifs57uG-nw14oIk-WYg&usqp=CAU" alt="fietswinkel">
+
+<h1>About page!</h1>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxrUQCARt8iH_GXSDifs57uG-nw14oIk-WYg&usqp=CAU" alt="fietswinkel">
 
     <p>Welcome to VenJ-Bike Rentals, your premier destination for all of your biking needs! We are a locally owned and
         operated business that is dedicated to providing our customers with the best possible experience when it comes
