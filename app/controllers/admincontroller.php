@@ -88,6 +88,19 @@ class admincontroller
 
     public function addBicycle()
     {
+        if ($_POST) {
+            if (isset($_POST['name']) && isset($_POST['category']) && isset($_POST['description']) && isset($_POST['picture']) && isset($_POST['borg']) && isset($_POST['priceperday'])) {
+                $name = $_POST['name'];
+                $category = $_POST['category'];
+                $description = $_POST['description'];
+                $picture = $_POST['picture'];
+                $borg = $_POST['borg'];
+                $priceperday = $_POST['priceperday'];
+
+                $this->catalogueService->addBicycle($name, $category, $description, $picture, $borg, $priceperday);
+                header('Location: /admin/Bicycles');
+            }
+        }
         require __DIR__ . '/../views/admin/addBicycle.php';
     }
 
